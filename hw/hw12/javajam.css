@@ -1,0 +1,136 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article { display: block; }
+body { background-color: #F5F5DC;
+      background-image: url(javabackground.gif);
+	  font-family: Verdana, Arial, sans-serif;
+      color: #2E0000;
+}
+#wrapper { margin-left: auto;
+           margin-right: auto;
+		   width: 80%;
+		   max-width: 960px;
+		   background-color: #E2D2B0;
+		   box-shadow: 5px 5px 5px #2E0000;
+}
+
+
+nav li{
+	background: rgb(252,234,187);
+	background: -moz-linear-gradient(top, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgba(248,181,0,1) 51%, rgba(251,223,147,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,234,187,1)), color-stop(50%,rgba(252,205,77,1)), color-stop(51%,rgba(248,181,0,1)), color-stop(100%,rgba(251,223,147,1)));
+	background: -webkit-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	background: -o-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	background: -ms-linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	background: linear-gradient(top, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 );	
+
+}
+
+
+
+
+header { background-color: #D2B48C;
+}
+h1 { background-image: url(javalogo.gif); 
+    background-position: center;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	height: 100px;
+	margin-bottom: 0; 
+}
+h3 { text-transform: uppercase;
+	background-color: #E2D2B0;
+}
+nav { font-weight: bold;
+      text-align: center; 
+	  float: left;
+	  width: 160px
+
+	
+}
+nav ul { list-style-type: none;  
+       padding-left: 0;
+	   font-size: 1.2em;
+
+	   
+}
+nav a { text-decoration: none	;
+}
+nav a:link { color: #795240;
+}
+nav a:visited { color: #A58366;
+	
+}
+nav a:hover { color: #F5F5DC;
+	
+}
+#content { padding: 1px 20px 20px 20px; 
+          background-color: #F5F5DC; 
+		  margin-left: 175px;	
+		  	  
+}
+#content img { float: left;
+              padding-right: 40px;
+			  padding-left: 40px;
+			  
+}
+section { padding-left: 20%;
+           padding-right: 20%;
+		overflow: auto;
+		
+}
+dt { font-weight: bold; 
+}
+img { border-style: none; }
+#content ul { list-style-image: url(marker.gif); 
+             list-style-position: inside; }
+footer { background-color: #D2B48C;
+       color: #000000;
+	   padding: 20px;
+	   font-size: .60em;
+	   font-style: italic;
+	   text-align: center;
+}	  
+footer a:link {color: #2E0000; } 
+footer a:visited {color: #000000; }
+footer a:hover {color: #F5F5DC; }
+#mobile { display: none; }
+#desktop { display: inline; }
+img { max-width: 100%; height: auto; }
+table { width: 80%;
+      margin: auto; }
+td, th { padding: 10px; }
+tr:nth-of-type(odd) { background-color: #D2B48C; }
+
+
+
+	  
+@media only screen and (max-width: 768px) {
+	body { margin: 0; }
+	#wrapper { min-width: 0; width: auto; margin: 0; }
+	h1 { background-image: url(javalogomobile.gif); margin: 0; }
+	#content { margin-left: 0; }
+	nav { float: none; width: auto; padding: 0; }
+	nav ul { text-align: center; }
+	nav li { display: inline; padding: 0 0.75em; }
+	section { padding: 0; }
+	#content ul { clear: both; padding-top: 1em; }
+}
+@media only screen and (max-width: 480px) {
+	body{ margin: 0; }
+	#wrapper { width: auto; min-width: 0; margin: 0; }
+	h1 { background-image: url(javalogomobile.gif); margin: 0; }
+	#content { padding: 0.1em 1em; margin: 0; font-size: 90%;}
+	nav ul { padding: 0; }
+	nav li { display: inline-block; width: 5em; font-size: 120%; text-align: center; 
+	       box-shadow: 2px 2px 2px #330000; background-color: #F5F5DC;
+		   margin: 1%; padding: 2.5%; }
+	nav a { display: block; }
+    nav a:hover { color: #D2B48C; }
+	#content img { float: none; padding: 0; margin: 0.1em; }
+	section { padding: 0; }
+	section img { display: none; }
+	#mobile { display: inline; }
+	#desktop { display: none; }
+
+	
+}

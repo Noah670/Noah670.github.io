@@ -1,0 +1,60 @@
+h1 {
+	color: red;
+	font-size: 200%;
+	
+}	
+
+h2 { color: white;
+
+	
+}	
+p { color:white;
+
+}
+
+code { color:yellow;
+
+}
+
+#p1 {color:yellow;
+	 color:rgba(255,255,0,1);
+	 
+}
+#p2 {color:yellow;
+	 color:rgba(255,255,0,.80);
+}	
+#p3 {color:yellow;
+	 color:rgba(255,255,0,.60);	 
+}	
+#p4 {color:yellow;
+	 color:rgba(255,255,0,.40);	 
+}	
+#p5 {color:yellow;
+	 color:rgba(255,255,0,.20);	 
+}	
+#p6 {color:yellow;
+	 color:rgba(255,255,0,0);	 
+}	
+
+#p7 {
+  color: hsla(0,100%,50%,1);
+}
+#p8 {
+  color: hsla(60,100%,50%,0.8);
+}
+#p9 {
+  color: hsla(120,100%,20%,0.6);
+}
+#p10 {
+  color: hsla(180,100%,50%,0.4);
+}
+#p11 {
+  color: hsla(240,100%,50%,0.2);
+}
+#p12 {
+  color: hsla(300,76%,72%,0);
+}
+body { background-image: url('../img/background-02.jpg');
+	   background-repeat: repeat;
+	 
+}

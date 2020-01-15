@@ -1,0 +1,115 @@
+
+
+
+body {
+	font-size:100%;
+	font-family:Arial,sans-serif;
+	margin:0 auto;
+	text-align:left;
+	}
+	
+	#wrapper {
+	width:600px;
+	text-align:left;
+	}
+	
+	.legend {
+	display:inline;
+	background-color:#ff0;
+	border:2px solid #4e4705;
+	margin:20px;
+	margin-bottom:-.8em;
+	padding:10px;
+	font-weight:700;
+	}
+	
+	#personal {
+	background-color:lightpink;
+	border:3px solid purple;
+	border-bottom-width:3px;
+	width:30em;
+	height:13em;
+	padding:10px;
+	line-height:2em;
+	text-indent:1px;
+	text-align:left;
+	}
+	
+	fieldset {
+	background-color:#f1f1f1;
+	border:none;
+	border-radius:2px;
+	margin-bottom:12px;
+	padding:15px;
+	}
+	
+	#choices {
+	background-color:#f5f5ba;
+	border:3px solid light;
+	left:150px;
+	width:40em;
+	height:10em;
+	line-height:.8em;
+	text-align:left;
+	}
+	
+	#choices label {
+	position:relative;
+	}
+	
+	#suggestions {
+	background-color:#add8e6;
+	border:3px solid #90ee90;
+	width:30em;
+	height:5em;
+	}
+	
+	input[type="submit"] {
+	background:#e7e790;
+	position:relative;
+	height:30px;
+	top:20px;
+	left:300px;
+	font-weight:700;
+	}
+	
+	input[type="text"] {
+	font-size:.1em;
+	margin:3px;
+	padding:10px;
+	}
+	
+	input[type="checkbox"] {
+	text-align:center;
+	height:10px;
+	}
+	
+	h2.address {
+	background-color:#4494C9;
+	}
+	
+	h2.public-profile {
+	background-color:#377D87;
+	}
+	
+	h2.emails {
+	background-color:#717F88;
+	}
+	
+	textarea {
+	font:inherit;
+	width:250px;
+	}
+	
+	#choices label {
+	float:relative;
+	}
+	
+	select {
+	width:20%;
+	margin:0 auto;
+	}
+	
+	#size {
+	padding:1px;
+	}
